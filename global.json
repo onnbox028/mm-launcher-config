@@ -1,1 +1,15 @@
 
+{
+  "latestVersionCode": 1,
+  "latestVersionName": "0.1.0",
+  "apkUrl": "",
+  "theme": {
+    "backgroundColor": "#101418",
+    "primaryColor": "#E50914",
+    "logoUrl": "",
+    "launcherTitle": "MM Launcher"
+  },
+  "expirationWarningDays": 5,
+  "paymentMessageTemplate": "Tu suscripción está por expirar. Para renovar, envía tu pago indicando tu ID de dispositivo: {deviceId}",
+  "supportContact": "Tu número o contacto aquí"
+}
