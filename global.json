@@ -1,15 +1,34 @@
-
 {
-  "latestVersionCode": 1,
-  "latestVersionName": "0.1.0",
-  "apkUrl": "",
+  "schemaVersion": 1,
+  "sequence": 1,
+
+  "app": {
+    "latestVersionCode": 1,
+    "latestVersionName": "0.1.0",
+    "apkUrl": "",
+    "apkSha256": ""
+  },
+
   "theme": {
     "backgroundColor": "#101418",
     "primaryColor": "#E50914",
     "logoUrl": "",
     "launcherTitle": "MM Launcher"
   },
+
+  "checkIntervalMinutes": 240,
   "expirationWarningDays": 5,
-  "paymentMessageTemplate": "Tu suscripción está por expirar. Para renovar, envía tu pago indicando tu ID de dispositivo: {deviceId}",
-  "supportContact": "Tu número o contacto aquí"
+
+  "payment": {
+    "amount": "15.00",
+    "currency": "USD",
+    "methods": [
+      { "type": "athmovil", "target": "" },
+      { "type": "paypal", "target": "" }
+    ],
+    "messageTemplate": "Tu suscripción venció. Para reactivarla, envía el pago indicando tu ID de dispositivo: {deviceId}",
+    "warningTemplate": "Tu suscripción vence en {days} días. ID: {deviceId}"
+  },
+
+  "supportContact": ""
 }
