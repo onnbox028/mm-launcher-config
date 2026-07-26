@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "sequence": 1,
+  "sequence": 2,
   "deviceId": "MM-67F556D0",
-  "issuedAt": "2026-07-25T18:00:00Z",
+  "issuedAt": "2026-07-26T13:00:00Z",
 
   "subscription": {
     "expiresAt": "2026-08-30T00:00:00Z",
@@ -26,18 +26,14 @@
     },
     {
       "package": "com.netflix.ninja",
-      "name": null,
+      "name": "Netflix PRUEBA",
       "iconUrl": "",
-      "pinSalt": "a3f9c1d8b2e47056",
-      "pinHash": "PONER_AQUI_EL_HASH",
-      "schedule": {
-        "from": "08:00",
-        "to": "21:00",
-        "days": [1, 2, 3, 4, 5]
-      }
+      "pinSalt": "",
+      "pinHash": "",
+      "schedule": null
     }
   ],
 
   "message": null,
-  "notes": "Campo libre para vos. La app lo ignora."
+  "notes": "sequence 2: renombra Netflix para verificar el reemplazo de nombre."
 }
