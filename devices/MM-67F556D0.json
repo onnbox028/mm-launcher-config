@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "sequence": 1,
+  "deviceId": "MM-67F556D0",
+  "issuedAt": "2026-07-25T18:00:00Z",
+
+  "subscription": {
+    "expiresAt": "2026-08-30T00:00:00Z",
+    "graceDays": 3
+  },
+
+  "launcher": {
+    "useMmLauncher": true,
+    "kiosk": false,
+    "blockFactoryReset": false
+  },
+
+  "apps": [
+    {
+      "package": "tv.mxliptv.app",
+      "name": "TV en Vivo",
+      "iconUrl": "",
+      "pinSalt": "",
+      "pinHash": "",
+      "schedule": null
+    },
+    {
+      "package": "com.netflix.ninja",
+      "name": null,
+      "iconUrl": "",
+      "pinSalt": "a3f9c1d8b2e47056",
+      "pinHash": "PONER_AQUI_EL_HASH",
+      "schedule": {
+        "from": "08:00",
+        "to": "21:00",
+        "days": [1, 2, 3, 4, 5]
+      }
+    }
+  ],
+
+  "message": null,
+  "notes": "Campo libre para vos. La app lo ignora."
+}
