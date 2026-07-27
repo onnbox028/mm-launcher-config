@@ -1,6 +1,12 @@
 {
   "schemaVersion": 1,
-  "sequence": 1,
+  "sequence": 2,
+
+  "_comentario_masterPin": "Ultima llave cuando el cliente perdio su PIN y su codigo de recuperacion. Generalo con: sign-config.ps1 -HashPin \"frase larga\". Este repo es publico, asi que el hash lo ve cualquiera: usa 12 caracteres o mas, nunca 4 digitos.",
+  "masterPin": {
+    "salt": "5359d7481fd7255d",
+    "hash": "c7e4fc66a1fbe6c55a7c70ac210016ca9965272a3deff4f13dbd08c71297446c"
+  },
 
   "app": {
     "latestVersionCode": 1,
