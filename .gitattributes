@@ -1,0 +1,6 @@
+# Los JSON van firmados sobre sus bytes exactos: cualquier conversion de
+# finales de linea invalida la firma y el equipo rechaza la configuracion.
+#
+# Sin esto, git con autocrlf=true convierte a CRLF al clonar, se firma sobre
+# esos bytes, y GitHub sirve LF: la verificacion falla en todos los equipos.
+* -text

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "sequence": 2,
+  "sequence": 3,
   "deviceId": "MM-67F556D0",
-  "issuedAt": "2026-07-26T13:00:00Z",
+  "issuedAt": "2026-07-28T16:00:00Z",
 
   "subscription": {
     "expiresAt": "2026-08-30T00:00:00Z",
@@ -15,25 +15,29 @@
     "blockFactoryReset": false
   },
 
+  "_comentario_apps": "blockOnExpiry marca las apps de TU suscripcion: son las unicas que desaparecen al vencer. Las que el cliente paga por su cuenta (Netflix, Disney+, YouTube) van sin la marca y siguen funcionando aunque te deba el mes. Por defecto es false: si te olvidas de marcar una, no se bloquea, que es el error menos danino.",
+
   "apps": [
     {
       "package": "tv.mxliptv.app",
       "name": "TV en Vivo",
       "iconUrl": "",
-      "pinSalt": "",
-      "pinHash": "",
-      "schedule": null
+      "blockOnExpiry": true
+    },
+    {
+      "package": "tv.mxlmovies.app",
+      "name": "Peliculas",
+      "iconUrl": "",
+      "blockOnExpiry": true
     },
     {
       "package": "com.netflix.ninja",
-      "name": "Netflix PRUEBA",
+      "name": null,
       "iconUrl": "",
-      "pinSalt": "",
-      "pinHash": "",
-      "schedule": null
+      "blockOnExpiry": false
     }
   ],
 
   "message": null,
-  "notes": "sequence 2: renombra Netflix para verificar el reemplazo de nombre."
+  "notes": "sequence 3: marca las apps de la suscripcion y devuelve a Netflix su nombre original."
 }
