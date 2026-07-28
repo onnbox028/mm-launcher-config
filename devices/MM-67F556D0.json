@@ -1,43 +1,38 @@
 {
-  "schemaVersion": 1,
-  "sequence": 3,
-  "deviceId": "MM-67F556D0",
-  "issuedAt": "2026-07-28T16:00:00Z",
-
-  "subscription": {
-    "expiresAt": "2026-08-30T00:00:00Z",
-    "graceDays": 3
-  },
-
-  "launcher": {
-    "useMmLauncher": true,
-    "kiosk": false,
-    "blockFactoryReset": false
-  },
-
-  "_comentario_apps": "blockOnExpiry marca las apps de TU suscripcion: son las unicas que desaparecen al vencer. Las que el cliente paga por su cuenta (Netflix, Disney+, YouTube) van sin la marca y siguen funcionando aunque te deba el mes. Por defecto es false: si te olvidas de marcar una, no se bloquea, que es el error menos danino.",
-
-  "apps": [
-    {
-      "package": "tv.mxliptv.app",
-      "name": "TV en Vivo",
-      "iconUrl": "",
-      "blockOnExpiry": true
-    },
-    {
-      "package": "tv.mxlmovies.app",
-      "name": "Peliculas",
-      "iconUrl": "",
-      "blockOnExpiry": true
-    },
-    {
-      "package": "com.netflix.ninja",
-      "name": null,
-      "iconUrl": "",
-      "blockOnExpiry": false
-    }
-  ],
-
-  "message": null,
-  "notes": "sequence 3: marca las apps de la suscripcion y devuelve a Netflix su nombre original."
+    "schemaVersion":  1,
+    "sequence":  4,
+    "deviceId":  "MM-67F556D0",
+    "issuedAt":  "2026-07-28T21:04:17Z",
+    "subscription":  {
+                         "expiresAt":  "2026-07-31T00:00:00Z",
+                         "graceDays":  3
+                     },
+    "launcher":  {
+                     "useMmLauncher":  true,
+                     "kiosk":  false,
+                     "blockFactoryReset":  false
+                 },
+    "_comentario_apps":  "blockOnExpiry marca las apps de TU suscripcion: son las unicas que desaparecen al vencer. Las que el cliente paga por su cuenta (Netflix, Disney+, YouTube) van sin la marca y siguen funcionando aunque te deba el mes. Por defecto es false: si te olvidas de marcar una, no se bloquea, que es el error menos danino.",
+    "apps":  [
+                 {
+                     "package":  "tv.mxliptv.app",
+                     "name":  "TV en Vivo",
+                     "iconUrl":  "",
+                     "blockOnExpiry":  true
+                 },
+                 {
+                     "package":  "tv.mxlmovies.app",
+                     "name":  "Peliculas",
+                     "iconUrl":  "",
+                     "blockOnExpiry":  true
+                 },
+                 {
+                     "package":  "com.netflix.ninja",
+                     "name":  null,
+                     "iconUrl":  "",
+                     "blockOnExpiry":  false
+                 }
+             ],
+    "message":  null,
+    "notes":  "sequence 3: marca las apps de la suscripcion y devuelve a Netflix su nombre original."
 }
