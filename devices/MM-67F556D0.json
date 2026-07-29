@@ -1,15 +1,15 @@
 {
     "schemaVersion":  1,
-    "sequence":  6,
+    "sequence":  7,
     "deviceId":  "MM-67F556D0",
-    "issuedAt":  "2026-07-29T11:33:03Z",
+    "issuedAt":  "2026-07-29T12:38:26Z",
     "subscription":  {
                          "expiresAt":  "2026-07-31T00:00:00Z",
                          "graceDays":  3
                      },
     "launcher":  {
                      "useMmLauncher":  true,
-                     "kiosk":  false,
+                     "kiosk":  true,
                      "blockFactoryReset":  false
                  },
     "_comentario_apps":  "blockOnExpiry marca las apps de TU suscripcion: son las unicas que desaparecen al vencer. Las que el cliente paga por su cuenta (Netflix, Disney+, YouTube) van sin la marca y siguen funcionando aunque te deba el mes. Por defecto es false: si te olvidas de marcar una, no se bloquea, que es el error menos danino.",
