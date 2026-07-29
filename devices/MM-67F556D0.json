@@ -1,38 +1,35 @@
 {
-    "schemaVersion":  1,
-    "sequence":  10,
-    "deviceId":  "MM-67F556D0",
-    "issuedAt":  "2026-07-29T18:37:46Z",
-    "subscription":  {
-                         "expiresAt":  "2026-08-30T00:00:00Z",
-                         "graceDays":  3
-                     },
-    "launcher":  {
-                     "useMmLauncher":  true,
-                     "kiosk":  true,
-                     "blockFactoryReset":  false
-                 },
-    "_comentario_apps":  "blockOnExpiry marca las apps de TU suscripcion: son las unicas que desaparecen al vencer. Las que el cliente paga por su cuenta (Netflix, Disney+, YouTube) van sin la marca y siguen funcionando aunque te deba el mes. Por defecto es false: si te olvidas de marcar una, no se bloquea, que es el error menos danino.",
-    "apps":  [
-                 {
-                     "package":  "tv.mxliptv.app",
-                     "name":  "TV en Vivo",
-                     "iconUrl":  "",
-                     "blockOnExpiry":  true
-                 },
-                 {
-                     "package":  "tv.mxlmovies.app",
-                     "name":  "Peliculas",
-                     "iconUrl":  "",
-                     "blockOnExpiry":  true
-                 },
-                 {
-                     "package":  "com.netflix.ninja",
-                     "name":  null,
-                     "iconUrl":  "",
-                     "blockOnExpiry":  false
-                 }
-             ],
-    "message":  null,
-    "notes":  "sequence 3: marca las apps de la suscripcion y devuelve a Netflix su nombre original."
+  "schemaVersion": 1,
+  "sequence": 11,
+  "deviceId": "MM-67F556D0",
+  "issuedAt": "2026-07-29T19:00:00Z",
+
+  "subscription": {
+    "expiresAt": "2026-08-30T00:00:00Z",
+    "graceDays": 3
+  },
+
+  "launcher": {
+    "useMmLauncher": true,
+    "kiosk": true,
+    "blockFactoryReset": false
+  },
+
+  "_comentario_apps": "Aca solo van nombre e icono personalizados. Que apps se bloquean al vencer se define una sola vez en global.json, bajo subscriptionApps. Si algun equipo tuviera una app propia que tambien deba bloquearse, se le agrega blockOnExpiry true y se suma a la lista global.",
+
+  "apps": [
+    {
+      "package": "tv.mxliptv.app",
+      "name": "TV en Vivo",
+      "iconUrl": ""
+    },
+    {
+      "package": "tv.mxlmovies.app",
+      "name": "Peliculas",
+      "iconUrl": ""
+    }
+  ],
+
+  "message": null,
+  "notes": "sequence 11: las apps de la suscripcion pasan a global.json."
 }
