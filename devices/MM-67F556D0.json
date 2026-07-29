@@ -1,35 +1,31 @@
 {
-  "schemaVersion": 1,
-  "sequence": 11,
-  "deviceId": "MM-67F556D0",
-  "issuedAt": "2026-07-29T19:00:00Z",
-
-  "subscription": {
-    "expiresAt": "2026-08-30T00:00:00Z",
-    "graceDays": 3
-  },
-
-  "launcher": {
-    "useMmLauncher": true,
-    "kiosk": true,
-    "blockFactoryReset": false
-  },
-
-  "_comentario_apps": "Aca solo van nombre e icono personalizados. Que apps se bloquean al vencer se define una sola vez en global.json, bajo subscriptionApps. Si algun equipo tuviera una app propia que tambien deba bloquearse, se le agrega blockOnExpiry true y se suma a la lista global.",
-
-  "apps": [
-    {
-      "package": "tv.mxliptv.app",
-      "name": "TV en Vivo",
-      "iconUrl": ""
-    },
-    {
-      "package": "tv.mxlmovies.app",
-      "name": "Peliculas",
-      "iconUrl": ""
-    }
-  ],
-
-  "message": null,
-  "notes": "sequence 11: las apps de la suscripcion pasan a global.json."
+    "schemaVersion":  1,
+    "sequence":  12,
+    "deviceId":  "MM-67F556D0",
+    "issuedAt":  "2026-07-29T19:46:56Z",
+    "subscription":  {
+                         "expiresAt":  "2026-08-30T00:00:00Z",
+                         "graceDays":  3
+                     },
+    "launcher":  {
+                     "useMmLauncher":  false,
+                     "kiosk":  false,
+                     "blockFactoryReset":  false,
+                     "blockDeveloperOptions":  null
+                 },
+    "_comentario_apps":  "Aca solo van nombre e icono personalizados. Que apps se bloquean al vencer se define una sola vez en global.json, bajo subscriptionApps. Si algun equipo tuviera una app propia que tambien deba bloquearse, se le agrega blockOnExpiry true y se suma a la lista global.",
+    "apps":  [
+                 {
+                     "package":  "tv.mxliptv.app",
+                     "name":  "TV en Vivo",
+                     "iconUrl":  ""
+                 },
+                 {
+                     "package":  "tv.mxlmovies.app",
+                     "name":  "Peliculas",
+                     "iconUrl":  ""
+                 }
+             ],
+    "message":  null,
+    "notes":  "sequence 11: las apps de la suscripcion pasan a global.json."
 }
