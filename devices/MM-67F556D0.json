@@ -1,8 +1,8 @@
 {
     "schemaVersion":  1,
-    "sequence":  16,
+    "sequence":  17,
     "deviceId":  "MM-67F556D0",
-    "issuedAt":  "2026-08-01T19:04:54Z",
+    "issuedAt":  "2026-08-01T19:11:11Z",
     "subscription":  {
                          "expiresAt":  "2026-07-31T00:00:00Z",
                          "graceDays":  3
@@ -10,7 +10,7 @@
     "launcher":  {
                      "useMmLauncher":  true,
                      "kiosk":  true,
-                     "blockFactoryReset":  false,
+                     "blockFactoryReset":  true,
                      "blockDeveloperOptions":  null
                  },
     "_comentario_apps":  "Aca solo van nombre e icono personalizados. Que apps se bloquean al vencer se define una sola vez en global.json, bajo subscriptionApps. Si algun equipo tuviera una app propia que tambien deba bloquearse, se le agrega blockOnExpiry true y se suma a la lista global.",
