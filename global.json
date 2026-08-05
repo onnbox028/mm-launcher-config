@@ -39,8 +39,8 @@
                                         "target":  ""
                                     }
                                 ],
-                    "messageTemplate":  "Tu suscripciÃƒÂ³n venciÃƒÂ³. Para reactivarla, envÃƒÂ­a el pago indicando tu ID de dispositivo: {deviceId}",
-                    "warningTemplate":  "Tu suscripciÃƒÂ³n vence en {days} dÃƒÂ­as. ID: {deviceId}"
+                    "messageTemplate":  "Tu suscripción esta vencida. Para reactivarla, envia el pago indicando tu ID de dispositivo: {deviceId}",
+                    "warningTemplate":  "Tu suscripción vence en {days} días. ID: {deviceId}"
                 },
     "supportContact":  ""
 }

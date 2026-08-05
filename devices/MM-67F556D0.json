@@ -13,19 +13,6 @@
                      "blockFactoryReset":  true,
                      "blockDeveloperOptions":  null
                  },
-    "_comentario_apps":  "Aca solo van nombre e icono personalizados. Que apps se bloquean al vencer se define una sola vez en global.json, bajo subscriptionApps. Si algun equipo tuviera una app propia que tambien deba bloquearse, se le agrega blockOnExpiry true y se suma a la lista global.",
-    "apps":  [
-                 {
-                     "package":  "tv.mxliptv.app",
-                     "name":  "TV en Vivo",
-                     "iconUrl":  ""
-                 },
-                 {
-                     "package":  "tv.mxlmovies.app",
-                     "name":  "Peliculas",
-                     "iconUrl":  ""
-                 }
-             ],
     "message":  null,
     "notes":  "sequence 19: expiresAt va sin huso horario y se lee como las 00:00 de Puerto Rico. graceDays 0 para que corte el mismo dia."
 }
