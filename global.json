@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "sequence":  4,
+    "sequence":  5,
     "_comentario_masterPin":  "Ultima llave cuando el cliente perdio su PIN y su codigo de recuperacion. Generalo con: sign-config.ps1 -HashPin \"frase larga\". Este repo es publico, asi que el hash lo ve cualquiera: usa 12 caracteres o mas, nunca 4 digitos.",
     "masterPin":  {
                       "salt":  "5359d7481fd7255d",
@@ -10,7 +10,7 @@
                 "latestVersionCode":  2,
                 "latestVersionName":  "0.1.0",
                 "apkUrl":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/app-release.apk",
-                "apkSha256":  "459b529a939f3587fab6db8db2c7833b7ee7734ed9e91983882bcb3807522475"
+                "apkSha256":  "89f81dda3abb15b12c55aee32a603f89b114ba085ed36d029d63616c60523d8f"
             },
     "theme":  {
                   "backgroundColor":  "#101418",
@@ -39,8 +39,8 @@
                                         "target":  ""
                                     }
                                 ],
-                    "messageTemplate":  "Tu suscripciÃ³n venciÃ³. Para reactivarla, envÃ­a el pago indicando tu ID de dispositivo: {deviceId}",
-                    "warningTemplate":  "Tu suscripciÃ³n vence en {days} dÃ­as. ID: {deviceId}"
+                    "messageTemplate":  "Tu suscripciÃƒÂ³n venciÃƒÂ³. Para reactivarla, envÃƒÂ­a el pago indicando tu ID de dispositivo: {deviceId}",
+                    "warningTemplate":  "Tu suscripciÃƒÂ³n vence en {days} dÃƒÂ­as. ID: {deviceId}"
                 },
     "supportContact":  ""
 }
