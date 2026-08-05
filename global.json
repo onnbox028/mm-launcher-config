@@ -24,7 +24,8 @@
     "subscriptionApps":  [
                              "tv.mxliptv.app",
                              "tv.mxlmovies.app",
-                             "com.android.mgstxNF"
+                             "com.android.mgstv",
+			     "com.sportzx.live",
                          ],
     "payment":  {
                     "amount":  "15.00",
