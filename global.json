@@ -1,47 +1,46 @@
 {
-  "schemaVersion": 1,
-  "sequence": 3,
-
-  "_comentario_masterPin": "Ultima llave cuando el cliente perdio su PIN y su codigo de recuperacion. Generalo con: sign-config.ps1 -HashPin \"frase larga\". Este repo es publico, asi que el hash lo ve cualquiera: usa 12 caracteres o mas, nunca 4 digitos.",
-  "masterPin": {
-    "salt": "5359d7481fd7255d",
-    "hash": "c7e4fc66a1fbe6c55a7c70ac210016ca9965272a3deff4f13dbd08c71297446c"
-  },
-
-  "app": {
-    "latestVersionCode": 1,
-    "latestVersionName": "0.1.0",
-    "apkUrl": "",
-    "apkSha256": ""
-  },
-
-  "theme": {
-    "backgroundColor": "#101418",
-    "primaryColor": "#E50914",
-    "logoUrl": "",
-    "launcherTitle": "MM Launcher"
-  },
-
-  "checkIntervalMinutes": 240,
-  "expirationWarningDays": 5,
-
-  "_comentario_subscriptionApps": "Tus apps: las unicas que desaparecen al vencer la suscripcion. Van aca porque son las mismas en toda la flota. Las que el cliente paga por su cuenta (Netflix, Disney+, YouTube) NO se ponen aca y siguen funcionando aunque te deba el mes.",
-  "subscriptionApps": [
-    "tv.mxliptv.app",
-    "tv.mxlmovies.app",
-    "com.android.mgstxNF"
-  ],
-
-  "payment": {
-    "amount": "15.00",
-    "currency": "USD",
-    "methods": [
-      { "type": "athmovil", "target": "" },
-      { "type": "paypal", "target": "" }
-    ],
-    "messageTemplate": "Tu suscripción venció. Para reactivarla, envía el pago indicando tu ID de dispositivo: {deviceId}",
-    "warningTemplate": "Tu suscripción vence en {days} días. ID: {deviceId}"
-  },
-
-  "supportContact": ""
+    "schemaVersion":  1,
+    "sequence":  4,
+    "_comentario_masterPin":  "Ultima llave cuando el cliente perdio su PIN y su codigo de recuperacion. Generalo con: sign-config.ps1 -HashPin \"frase larga\". Este repo es publico, asi que el hash lo ve cualquiera: usa 12 caracteres o mas, nunca 4 digitos.",
+    "masterPin":  {
+                      "salt":  "5359d7481fd7255d",
+                      "hash":  "c7e4fc66a1fbe6c55a7c70ac210016ca9965272a3deff4f13dbd08c71297446c"
+                  },
+    "app":  {
+                "latestVersionCode":  2,
+                "latestVersionName":  "0.1.0",
+                "apkUrl":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/app-release.apk",
+                "apkSha256":  "459b529a939f3587fab6db8db2c7833b7ee7734ed9e91983882bcb3807522475"
+            },
+    "theme":  {
+                  "backgroundColor":  "#101418",
+                  "primaryColor":  "#E50914",
+                  "logoUrl":  "",
+                  "launcherTitle":  "MM Launcher"
+              },
+    "checkIntervalMinutes":  240,
+    "expirationWarningDays":  5,
+    "_comentario_subscriptionApps":  "Tus apps: las unicas que desaparecen al vencer la suscripcion. Van aca porque son las mismas en toda la flota. Las que el cliente paga por su cuenta (Netflix, Disney+, YouTube) NO se ponen aca y siguen funcionando aunque te deba el mes.",
+    "subscriptionApps":  [
+                             "tv.mxliptv.app",
+                             "tv.mxlmovies.app",
+                             "com.android.mgstxNF"
+                         ],
+    "payment":  {
+                    "amount":  "15.00",
+                    "currency":  "USD",
+                    "methods":  [
+                                    {
+                                        "type":  "athmovil",
+                                        "target":  ""
+                                    },
+                                    {
+                                        "type":  "paypal",
+                                        "target":  ""
+                                    }
+                                ],
+                    "messageTemplate":  "Tu suscripciÃ³n venciÃ³. Para reactivarla, envÃ­a el pago indicando tu ID de dispositivo: {deviceId}",
+                    "warningTemplate":  "Tu suscripciÃ³n vence en {days} dÃ­as. ID: {deviceId}"
+                },
+    "supportContact":  ""
 }
