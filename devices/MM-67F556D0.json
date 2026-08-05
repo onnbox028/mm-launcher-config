@@ -1,8 +1,8 @@
 {
     "schemaVersion":  1,
-    "sequence":  19,
+    "sequence":  20,
     "deviceId":  "MM-67F556D0",
-    "issuedAt":  "2026-08-05T01:45:00Z",
+    "issuedAt":  "2026-08-05T20:40:00Z",
     "subscription":  {
                          "expiresAt":  "2026-08-01",
                          "graceDays":  0
@@ -11,8 +11,9 @@
                      "useMmLauncher":  true,
                      "kiosk":  true,
                      "blockFactoryReset":  true,
-                     "blockDeveloperOptions":  null
+                     "blockDeveloperOptions":  null,
+                     "restrictSettings":  true
                  },
     "message":  null,
-    "notes":  "sequence 19: expiresAt va sin huso horario y se lee como las 00:00 de Puerto Rico. graceDays 0 para que corte el mismo dia."
+    "notes":  "sequence 20: el atajo de la grilla abre los Ajustes de fabrica y restrictSettings cierra cuentas, aplicaciones y los restablecimientos."
 }

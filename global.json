@@ -25,8 +25,21 @@
                              "tv.mxliptv.app",
                              "tv.mxlmovies.app",
                              "com.android.mgstv",
-			     "com.sportzx.live",
+                             "com.sportzx.live"
                          ],
+    "_comentario_apps":  "Nombre e icono a mostrar, para toda la flota. El JSON de un equipo puede pisar cualquiera de estos si ese cliente quiere otro nombre.",
+    "apps":  [
+                 {
+                     "package":  "tv.mxliptv.app",
+                     "name":  "TV en Vivo",
+                     "iconUrl":  ""
+                 },
+                 {
+                     "package":  "tv.mxlmovies.app",
+                     "name":  "Peliculas",
+                     "iconUrl":  ""
+                 }
+             ],
     "payment":  {
                     "amount":  "15.00",
                     "currency":  "USD",
