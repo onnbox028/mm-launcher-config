@@ -29,24 +29,24 @@
                          ],
     "_comentario_apps":  "Nombre e icono a mostrar, para toda la flota. El JSON de un equipo puede pisar cualquiera de estos si ese cliente quiere otro nombre.",
     "apps":  [
+				 {
+                     "package":  "com.android.mgstv",
+                     "name":  "1.TV Local & Internacional",
+                     "iconUrl":  ""
+                 },
                  {
                      "package":  "tv.mxliptv.app",
-                     "name":  "Canales TV",
+                     "name":  "2.Canales TV",
                      "iconUrl":  ""
                  },
                  {
                      "package":  "tv.mxlmovies.app",
-                     "name":  "Peliculas",
+                     "name":  "3.Peliculas",
                      "iconUrl":  ""
                  },
-				 {
-                     "package":  "com.android.mgstv",
-                     "name":  "TV Local & Internacional",
-                     "iconUrl":  ""
-                 },
-				 {
+				 				 {
                      "package":  "com.sportzx.live",
-                     "name":  "Deportes",
+                     "name":  "4.Deportes",
                      "iconUrl":  ""
                  }
              ],
