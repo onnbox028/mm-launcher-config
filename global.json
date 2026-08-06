@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "sequence":  6,
+    "sequence":  10,
     "_comentario_masterPin":  "Ultima llave cuando el cliente perdio su PIN y su codigo de recuperacion. Generalo con: sign-config.ps1 -HashPin \"frase larga\". Este repo es publico, asi que el hash lo ve cualquiera: usa 12 caracteres o mas, nunca 4 digitos.",
     "masterPin":  {
                       "salt":  "5359d7481fd7255d",
@@ -20,6 +20,8 @@
               },
     "checkIntervalMinutes":  240,
     "expirationWarningDays":  5,
+    "_comentario_allowAppInstall":  "En false esconde la Play Store, le impide abrirse y cierra la instalacion por sideload. OJO: tambien bloquea instalar por adb y con la opcion 8 de la consola. Ponelo en true mientras prepares un equipo y volvelo a false al terminar.",
+    "allowAppInstall":  false,
     "_comentario_subscriptionApps":  "Tus apps:las unicas que desaparecen al vencer la suscripcion. Van aca porque son las mismas en toda la flota. Las que el cliente paga por su cuenta (Netflix, Disney+, YouTube) NO se ponen aca y siguen funcionando aunque te deba el mes.",
     "subscriptionApps":  [
                              "tv.mxliptv.app",
@@ -51,20 +53,21 @@
                  }
              ],
     "payment":  {
-                    "amount":  "15.00",
+                    "amount":  "10.00",
                     "currency":  "USD",
+                    "_comentario_methods":  "El QR se genera con el primer metodo cuyo target empiece con http, asi que el de PayPal va como enlace completo. ATH Movil personal no tiene enlace: el numero se muestra para teclearlo.",
                     "methods":  [
                                     {
                                         "type":  "athmovil",
-                                        "target":  ""
+                                        "target":  "787-380-0430"
                                     },
                                     {
                                         "type":  "paypal",
-                                        "target":  ""
+                                        "target":  "https://paypal.me/mirangerardo"
                                     }
                                 ],
                     "messageTemplate":  "Tu suscripción esta vencida. Para reactivarla, envia el pago indicando tu ID de dispositivo: {deviceId}",
                     "warningTemplate":  "Tu suscripción vence en {days} días. ID: {deviceId}"
                 },
-    "supportContact":  ""
+    "supportContact":  "WhatsApp 787-380-0430"
 }
