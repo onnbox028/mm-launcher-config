@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "sequence":  13,
+    "sequence":  14,
     "_comentario_masterPin":  "Ultima llave cuando el cliente perdio su PIN y su codigo de recuperacion. Generalo con: sign-config.ps1 -HashPin \"frase larga\". Este repo es publico, asi que el hash lo ve cualquiera: usa 12 caracteres o mas, nunca 4 digitos.",
     "masterPin":  {
                       "salt":  "5359d7481fd7255d",
@@ -55,11 +55,12 @@
     "payment":  {
                     "amount":  "10.00",
                     "currency":  "USD",
-                    "_comentario_methods":  "El QR se genera con el primer metodo cuyo target empiece con http, asi que el de PayPal va como enlace completo. ATH Movil personal no tiene enlace: el numero se muestra para teclearlo.",
+                    "_comentario_methods":  "target es lo que se muestra escrito y qr es lo que codifica el codigo. ATH Movil va con target vacio a proposito: se cobra escaneando y asi no se ensena el telefono. El contenido del qr salio del PNG con scripts/DecodeQr.java.",
                     "methods":  [
                                     {
                                         "type":  "athmovil",
-                                        "target":  "787-380-0430"
+                                        "target":  "",
+                                        "qr":  "https://athmovil.blob.core.windows.net/athmovildeeplinking/Deep-Linking/deep.html?74ff061b98d7ab2708799bcd255ebef8d401b3087d2ae1ab813e5cea35b229be"
                                     },
                                     {
                                         "type":  "paypal",
