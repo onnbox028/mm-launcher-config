@@ -20,9 +20,9 @@
               },
     "checkIntervalMinutes":  240,
     "expirationWarningDays":  5,
-    "_comentario_subscriptionApps":  "Tus apps: las unicas que desaparecen al vencer la suscripcion. Van aca porque son las mismas en toda la flota. Las que el cliente paga por su cuenta (Netflix, Disney+, YouTube) NO se ponen aca y siguen funcionando aunque te deba el mes.",
+    "_comentario_subscriptionApps":  "Tus apps: tv.mxliptv.app, las unicas que desaparecen al vencer la suscripcion. Van aca porque son las mismas en toda la flota. Las que el cliente paga por su cuenta (Netflix, Disney+, YouTube) NO se ponen aca y siguen funcionando aunque te deba el mes.",
     "subscriptionApps":  [
-                             "tv.mxliptv.app",
+                             
                              "tv.mxlmovies.app",
                              "com.android.mgstv",
                              "com.sportzx.live"
