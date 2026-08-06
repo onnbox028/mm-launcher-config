@@ -1,16 +1,16 @@
 {
     "schemaVersion":  1,
-    "sequence":  5,
+    "sequence":  6,
     "_comentario_masterPin":  "Ultima llave cuando el cliente perdio su PIN y su codigo de recuperacion. Generalo con: sign-config.ps1 -HashPin \"frase larga\". Este repo es publico, asi que el hash lo ve cualquiera: usa 12 caracteres o mas, nunca 4 digitos.",
     "masterPin":  {
                       "salt":  "5359d7481fd7255d",
                       "hash":  "c7e4fc66a1fbe6c55a7c70ac210016ca9965272a3deff4f13dbd08c71297446c"
                   },
     "app":  {
-                "latestVersionCode":  2,
+                "latestVersionCode":  3,
                 "latestVersionName":  "0.1.0",
                 "apkUrl":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/app-release.apk",
-                "apkSha256":  "89f81dda3abb15b12c55aee32a603f89b114ba085ed36d029d63616c60523d8f"
+                "apkSha256":  "63e8aa6ac657d842b844f8baa60193fea12b9e35aab58ab43c8ea5ee6126e64f"
             },
     "theme":  {
                   "backgroundColor":  "#101418",
@@ -29,9 +29,9 @@
                          ],
     "_comentario_apps":  "Nombre e icono a mostrar, para toda la flota. El JSON de un equipo puede pisar cualquiera de estos si ese cliente quiere otro nombre.",
     "apps":  [
-				 {
+                 {
                      "package":  "com.android.mgstv",
-                     "name":  "1.TV Local & Internacional",
+                     "name":  "1.TV Local \u0026 Internacional",
                      "iconUrl":  ""
                  },
                  {
@@ -44,7 +44,7 @@
                      "name":  "3.Peliculas",
                      "iconUrl":  ""
                  },
-				 				 {
+                 {
                      "package":  "com.sportzx.live",
                      "name":  "4.Deportes",
                      "iconUrl":  ""
