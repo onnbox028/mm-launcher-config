@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "sequence":  10,
+    "sequence":  12,
     "_comentario_masterPin":  "Ultima llave cuando el cliente perdio su PIN y su codigo de recuperacion. Generalo con: sign-config.ps1 -HashPin \"frase larga\". Este repo es publico, asi que el hash lo ve cualquiera: usa 12 caracteres o mas, nunca 4 digitos.",
     "masterPin":  {
                       "salt":  "5359d7481fd7255d",
@@ -10,7 +10,7 @@
                 "latestVersionCode":  3,
                 "latestVersionName":  "0.1.0",
                 "apkUrl":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/app-release.apk",
-                "apkSha256":  "63e8aa6ac657d842b844f8baa60193fea12b9e35aab58ab43c8ea5ee6126e64f"
+                "apkSha256":  "0ce25b7db05022d371eb36a6b1eca0700898a6148189df7b8e5ea0fc66e28e1c"
             },
     "theme":  {
                   "backgroundColor":  "#101418",
@@ -21,7 +21,7 @@
     "checkIntervalMinutes":  240,
     "expirationWarningDays":  5,
     "_comentario_allowAppInstall":  "En false esconde la Play Store, le impide abrirse y cierra la instalacion por sideload. OJO: tambien bloquea instalar por adb y con la opcion 8 de la consola. Ponelo en true mientras prepares un equipo y volvelo a false al terminar.",
-    "allowAppInstall":  false,
+    "allowAppInstall":  true,
     "_comentario_subscriptionApps":  "Tus apps:las unicas que desaparecen al vencer la suscripcion. Van aca porque son las mismas en toda la flota. Las que el cliente paga por su cuenta (Netflix, Disney+, YouTube) NO se ponen aca y siguen funcionando aunque te deba el mes.",
     "subscriptionApps":  [
                              "tv.mxliptv.app",
