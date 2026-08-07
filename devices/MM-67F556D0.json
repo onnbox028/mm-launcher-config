@@ -1,10 +1,10 @@
 {
     "schemaVersion":  1,
-    "sequence":  35,
+    "sequence":  37,
     "deviceId":  "MM-67F556D0",
-    "issuedAt":  "2026-08-07T22:17:44Z",
+    "issuedAt":  "2026-08-07T23:26:47Z",
     "subscription":  {
-                         "expiresAt":  "2026-08-08",
+                         "expiresAt":  "2026-08-31",
                          "graceDays":  0
                      },
     "launcher":  {
