@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "sequence":  24,
+    "sequence":  26,
     "deviceId":  "MM-67F556D0",
     "issuedAt":  "2026-08-07T02:05:48Z",
     "subscription":  {
@@ -15,5 +15,8 @@
                      "restrictSettings":  true
                  },
     "message":  null,
-    "notes":  "sequence 20: el atajo de la grilla abre los Ajustes de fabrica y restrictSettings cierra cuentas, aplicaciones y los restablecimientos."
+    "notes":  "sequence 20: el atajo de la grilla abre los Ajustes de fabrica y restrictSettings cierra cuentas, aplicaciones y los restablecimientos.",
+    "hiddenApps":  [
+
+                   ]
 }
