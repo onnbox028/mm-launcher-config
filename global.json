@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "sequence":  19,
+    "sequence":  21,
     "_comentario_masterPin":  "Ultima llave cuando el cliente perdio su PIN y su codigo de recuperacion. Generalo con: sign-config.ps1 -HashPin \"frase larga\". Este repo es publico, asi que el hash lo ve cualquiera: usa 12 caracteres o mas, nunca 4 digitos.",
     "masterPin":  {
                       "salt":  "5359d7481fd7255d",
@@ -74,7 +74,6 @@
     "_comentario_supportContact":  "Vacio a proposito: se mostraba en la pantalla de pago y exponia el telefono. Si algun dia se quiere un contacto ahi, conviene uno que no sea el personal.",
     "supportContact":  "",
     "hiddenApps":  [
-                       "com.android.vending",
                        "com.mercadolibre.android.mplay_tv"
                    ]
 }
