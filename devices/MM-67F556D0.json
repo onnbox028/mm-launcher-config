@@ -9,10 +9,10 @@
                      },
     "launcher":  {
                      "useMmLauncher":  true,
-                     "kiosk":  false,
+                     "kiosk":  true,
                      "blockFactoryReset":  true,
                      "blockDeveloperOptions":  null,
-                     "restrictSettings":  true
+                     "restrictSettings":  false
                  },
     "message":  null,
     "notes":  "sequence 20: el atajo de la grilla abre los Ajustes de fabrica y restrictSettings cierra cuentas, aplicaciones y los restablecimientos.",
