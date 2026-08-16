@@ -1,16 +1,16 @@
 {
     "schemaVersion":  1,
-    "sequence":  45,
+    "sequence":  48,
     "_comentario_masterPin":  "Ultima llave cuando el cliente perdio su PIN y su codigo de recuperacion. Generalo con: sign-config.ps1 -HashPin \"frase larga\". Este repo es publico, asi que el hash lo ve cualquiera: usa 12 caracteres o mas, nunca 4 digitos.",
     "masterPin":  {
                       "salt":  "5359d7481fd7255d",
                       "hash":  "c7e4fc66a1fbe6c55a7c70ac210016ca9965272a3deff4f13dbd08c71297446c"
                   },
     "app":  {
-                "latestVersionCode":  11,
-                "latestVersionName":  "2.0",
+                "latestVersionCode":  13,
+                "latestVersionName":  "2.2",
                 "apkUrl":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/app-release.apk",
-                "apkSha256":  "6355680fae66298e48119be48ed1f6760e23c2db75e732a4def14c6553b597d4"
+                "apkSha256":  "a3d5fbdbcb0bdbc4f53a14b27546f69531b7af45692b3f40ff1fe0c077c912e7"
             },
     "theme":  {
                   "backgroundColor":  "#101418",
@@ -75,8 +75,9 @@
                                         "qr":  "https://paypal.me/mirangerardo"
                                     }
                                 ],
-                    "messageTemplate":  "Tu suscripción esta vencida. Para reactivarla, envia el pago indicando tu ID de dispositivo: {deviceId}",
-                    "warningTemplate":  "Tu suscripción vence en {days} días. ID: {deviceId}"
+                    "messageTemplate":  "Tu suscripción esta vencida. Para reactivarla, envia el pago e indica tu ID de equipo en el mensaje del pago: {deviceId}",
+                    "warningTemplate":  "Tu suscripción vence en {days} días. ID: {deviceId}",
+                    "activeTemplate":  "Puedes adelantar el pago cuando quieras. Indica tu ID de equipo en el mensaje del pago."
                 },
     "_comentario_supportContact":  "Vacio a proposito: se mostraba en la pantalla de pago y exponia el telefono. Si algun dia se quiere un contacto ahi, conviene uno que no sea el personal.",
     "supportContact":  "",
@@ -91,5 +92,17 @@
                    "text":  "Quiero la combi completa,que no se diga mas,todo o nada. Nena, dime si tú estás pa’ mí como yo estoy puesto pa’ ti.",
                    "since":  "2026-08-12",
                    "days":  7
+               },
+    "_comentario_report":  "Formulario donde cada equipo deja su estado. Los nombres de campo pertenecen al formulario, no al launcher: si algun dia se rehace, se cambian aca y no hace falta actualizar la flota. Vaciar url apaga el reporte.",
+    "report":  {
+                   "url":  "https://docs.google.com/forms/d/e/1FAIpQLScliYWsXWrN0lYTCwagX_ApbAggViRVVI2SZO5Bfi2M8zaefA/formResponse",
+                   "fields":  {
+                                  "equipo":  "entry.681966713",
+                                  "version":  "entry.1141894002",
+                                  "config":  "entry.1934123203",
+                                  "vence":  "entry.2005795308",
+                                  "estado":  "entry.1665234217",
+                                  "apps":  "entry.2026633948"
+                              }
                }
 }
