@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "sequence":  44,
+    "sequence":  45,
     "_comentario_masterPin":  "Ultima llave cuando el cliente perdio su PIN y su codigo de recuperacion. Generalo con: sign-config.ps1 -HashPin \"frase larga\". Este repo es publico, asi que el hash lo ve cualquiera: usa 12 caracteres o mas, nunca 4 digitos.",
     "masterPin":  {
                       "salt":  "5359d7481fd7255d",
@@ -27,7 +27,9 @@
                              "tv.mxliptv.app",
                              "tv.mxlmovies.app",
                              "com.android.mgstv",
-                             "com.sportzx.live"
+                             "com.sportzx.live",
+                             "flix.com.vision",
+                             "com.live.geesports"
                          ],
     "_comentario_apps":  "Nombre e icono a mostrar, para toda la flota. El JSON de un equipo puede pisar cualquiera de estos si ese cliente quiere otro nombre.",
     "apps":  [
@@ -45,11 +47,6 @@
                      "package":  "tv.mxlmovies.app",
                      "name":  "3.Peliculas",
                      "iconUrl":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/icons/03-peliculas.png"
-                 },
-                 {
-                     "package":  "com.sportzx.live",
-                     "name":  "99.Deportes",
-                     "iconUrl":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/icons/04-deportes.png"
                  },
                  {
                      "package":  "flix.com.vision",
