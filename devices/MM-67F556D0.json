@@ -9,7 +9,7 @@
                      },
     "launcher":  {
                      "useMmLauncher":  true,
-                     "kiosk":  true,
+                     "kiosk":  false,
                      "blockFactoryReset":  true,
                      "blockDeveloperOptions":  null,
                      "restrictSettings":  true
