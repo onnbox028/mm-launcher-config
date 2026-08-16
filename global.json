@@ -1,16 +1,16 @@
 {
     "schemaVersion":  1,
-    "sequence":  48,
+    "sequence":  50,
     "_comentario_masterPin":  "Ultima llave cuando el cliente perdio su PIN y su codigo de recuperacion. Generalo con: sign-config.ps1 -HashPin \"frase larga\". Este repo es publico, asi que el hash lo ve cualquiera: usa 12 caracteres o mas, nunca 4 digitos.",
     "masterPin":  {
                       "salt":  "5359d7481fd7255d",
                       "hash":  "c7e4fc66a1fbe6c55a7c70ac210016ca9965272a3deff4f13dbd08c71297446c"
                   },
     "app":  {
-                "latestVersionCode":  13,
-                "latestVersionName":  "2.2",
+                "latestVersionCode":  14,
+                "latestVersionName":  "2.3",
                 "apkUrl":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/app-release.apk",
-                "apkSha256":  "a3d5fbdbcb0bdbc4f53a14b27546f69531b7af45692b3f40ff1fe0c077c912e7"
+                "apkSha256":  "fd23d5c2ac148d2d87992729c890fbc816992ed14adbb623666662090d191380"
             },
     "theme":  {
                   "backgroundColor":  "#101418",
