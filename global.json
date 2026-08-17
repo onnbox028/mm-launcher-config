@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "sequence":  51,
+    "sequence":  52,
     "_comentario_masterPin":  "Ultima llave cuando el cliente perdio su PIN y su codigo de recuperacion. Generalo con: sign-config.ps1 -HashPin \"frase larga\". Este repo es publico, asi que el hash lo ve cualquiera: usa 12 caracteres o mas, nunca 4 digitos.",
     "masterPin":  {
                       "salt":  "5359d7481fd7255d",
@@ -51,7 +51,7 @@
                  {
                      "package":  "flix.com.vision",
                      "name":  "4.Peliculas \u0026 Series",
-                     "iconUrl":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/icons/flix-com-vision.png"
+                     "iconUrl":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/icons/flix-com-vision-202608171022.png"
                  },
                  {
                      "package":  "com.live.geesports",
