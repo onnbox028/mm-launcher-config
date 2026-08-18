@@ -1,18 +1,18 @@
 {
     "schemaVersion":  1,
-    "sequence":  39,
+    "sequence":  40,
     "deviceId":  "MM-67F556D0",
-    "issuedAt":  "2026-08-17T18:24:22Z",
+    "issuedAt":  "2026-08-18T15:03:48Z",
     "subscription":  {
                          "expiresAt":  "2026-09-30",
                          "graceDays":  0
                      },
     "launcher":  {
-                     "useMmLauncher":  true,
+                     "useMmLauncher":  false,
                      "kiosk":  true,
                      "blockFactoryReset":  true,
-                     "blockDeveloperOptions":  null,
-                     "restrictSettings":  true
+                     "restrictSettings":  true,
+                     "blockDeveloperOptions":  null
                  },
     "message":  null,
     "notes":  "sequence 20: el atajo de la grilla abre los Ajustes de fabrica y restrictSettings cierra cuentas, aplicaciones y los restablecimientos.",
