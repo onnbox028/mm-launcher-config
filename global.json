@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "sequence":  56,
+    "sequence":  58,
     "_comentario_masterPin":  "Ultima llave cuando el cliente perdio su PIN y su codigo de recuperacion. Generalo con: sign-config.ps1 -HashPin \"frase larga\". Este repo es publico, asi que el hash lo ve cualquiera: usa 12 caracteres o mas, nunca 4 digitos.",
     "masterPin":  {
                       "salt":  "5359d7481fd7255d",
@@ -115,6 +115,12 @@
                                        "versionCode":  77,
                                        "url":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/apps/flix.com.vision-77.apk",
                                        "sha256":  "0408be82483cffc20b0dd69d84e076f29f3fff187273161eedb385b2e7d9917a"
+                                   },
+                                   {
+                                       "package":  "com.streamflixreborn.streamflix",
+                                       "versionCode":  113,
+                                       "url":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/apps/com.streamflixreborn.streamflix-113.apk",
+                                       "sha256":  "ddc88d5243564bf95736801eda03207ae893ec39100c2c884b77c0b870571cab"
                                    }
                                ],
                    "uninstall":  [
