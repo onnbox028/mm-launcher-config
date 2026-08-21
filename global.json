@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "sequence":  61,
+    "sequence":  63,
     "_comentario_masterPin":  "Ultima llave cuando el cliente perdio su PIN y su codigo de recuperacion. Generalo con: sign-config.ps1 -HashPin \"frase larga\". Este repo es publico, asi que el hash lo ve cualquiera: usa 12 caracteres o mas, nunca 4 digitos.",
     "masterPin":  {
                       "salt":  "5359d7481fd7255d",
@@ -105,7 +105,8 @@
                                   "config":  "entry.1934123203",
                                   "vence":  "entry.2005795308",
                                   "estado":  "entry.1665234217",
-                                  "apps":  "entry.2026633948"
+                                  "apps":  "entry.2026633948",
+                                  "gestion":  "entry.1100225537"
                               }
                },
     "manage":  {
@@ -118,7 +119,8 @@
                                    }
                                ],
                    "uninstall":  [
-                                     "com.streamflixreborn.streamflix"
+                                     "com.streamflixreborn.streamflix",
+                                     "9,16"
                                  ]
                }
 }
