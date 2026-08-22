@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "sequence":  69,
+    "sequence":  70,
     "_comentario_masterPin":  "Ultima llave cuando el cliente perdio su PIN y su codigo de recuperacion. Generalo con: sign-config.ps1 -HashPin \"frase larga\". Este repo es publico, asi que el hash lo ve cualquiera: usa 12 caracteres o mas, nunca 4 digitos.",
     "masterPin":  {
                       "salt":  "5359d7481fd7255d",
@@ -88,7 +88,8 @@
                        "com.android.vending",
                        "com.nst.iptvsmarterstvbox",
                        "com.yablio.sendfilestotv",
-                       "com.esaba.downloader"
+                       "com.esaba.downloader",
+                       "org.videolan.vlc"
                    ],
     "_comentario_notice":  "Mensaje que corre de derecha a izquierda al lado del nombre del launcher. text es lo que dice; since es el dia desde el que cuenta; days cuantos dias queda visible contando el de since, y 0 significa que no caduca. Con text vacio no se muestra nada. Lo mas comodo es llenarlo con la opcion 13 de la consola, que pone la fecha de hoy en since sola.",
     "notice":  {
