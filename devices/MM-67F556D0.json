@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "sequence":  44,
+    "sequence":  45,
     "deviceId":  "MM-67F556D0",
     "issuedAt":  "2026-08-19T23:22:34Z",
     "subscription":  {
@@ -21,7 +21,12 @@
                    ],
     "manage":  {
                    "install":  [
-
+                                   {
+                                       "package":  "org.videolan.vlc",
+                                       "versionCode":  13070105,
+                                       "url":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/apps/org.videolan.vlc-13070105.apk",
+                                       "sha256":  "a6a7f940e4bd190c9a70f3f0dc97c1c402c10200af20edac7a1d452b24abd8a0"
+                                   }
                                ],
                    "uninstall":  [
 
