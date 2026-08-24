@@ -1,6 +1,6 @@
-{
+﻿{
     "schemaVersion":  1,
-    "sequence":  71,
+    "sequence":  72,
     "_comentario_masterPin":  "Ultima llave cuando el cliente perdio su PIN y su codigo de recuperacion. Generalo con: sign-config.ps1 -HashPin \"frase larga\". Este repo es publico, asi que el hash lo ve cualquiera: usa 12 caracteres o mas, nunca 4 digitos.",
     "masterPin":  {
                       "salt":  "5359d7481fd7255d",
@@ -36,27 +36,27 @@
                  {
                      "package":  "com.android.mgstv",
                      "name":  "1.TV Local \u0026 Internacional",
-                     "iconUrl":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/icons/01-tv.png"
+                     "iconUrl":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/icons/tv-202608241646.png"
                  },
                  {
                      "package":  "tv.mxliptv.app",
                      "name":  "2.Canales TV",
-                     "iconUrl":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/icons/02-canales.png"
+                     "iconUrl":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/icons/canales-202608241646.png"
                  },
                  {
                      "package":  "tv.mxlmovies.app",
                      "name":  "3.Peliculas",
-                     "iconUrl":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/icons/03-peliculas.png"
+                     "iconUrl":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/icons/peliculas-202608241646.png"
                  },
                  {
                      "package":  "flix.com.vision",
                      "name":  "4.Peliculas \u0026 Series",
-                     "iconUrl":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/icons/flix-com-vision-202608171022.png"
+                     "iconUrl":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/icons/series-202608241646.png"
                  },
                  {
                      "package":  "com.live.geesports",
                      "name":  "5.Deportes",
-                     "iconUrl":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/icons/com-live-geesports.png"
+                     "iconUrl":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/icons/deportes-202608241646.png"
                  }
              ],
     "payment":  {
