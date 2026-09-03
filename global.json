@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "sequence":  74,
+    "sequence":  75,
     "_comentario_masterPin":  "Ultima llave cuando el cliente perdio su PIN y su codigo de recuperacion. Generalo con: sign-config.ps1 -HashPin \"frase larga\". Este repo es publico, asi que el hash lo ve cualquiera: usa 12 caracteres o mas, nunca 4 digitos.",
     "masterPin":  {
                       "salt":  "5359d7481fd7255d",
@@ -117,6 +117,12 @@
                                        "versionCode":  621,
                                        "url":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/apps/com.storymatrix.drama-621.apk",
                                        "sha256":  "b4643de92cc5f730a04ea0e3694437d72aa0f0afa72804d5f86fae2eb78f3601"
+                                   },
+                                   {
+                                       "package":  "com.sportzx.live",
+                                       "versionCode":  18,
+                                       "url":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/apps/com.sportzx.live-18.apk",
+                                       "sha256":  "95222ab63c05846d41dcfb2b0fe799131d233360e4d122d3a07919206931a78b"
                                    }
                                ],
                    "uninstall":  [
