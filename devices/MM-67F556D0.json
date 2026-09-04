@@ -1,15 +1,15 @@
 {
     "schemaVersion":  1,
-    "sequence":  45,
+    "sequence":  46,
     "deviceId":  "MM-67F556D0",
-    "issuedAt":  "2026-08-19T23:22:34Z",
+    "issuedAt":  "2026-09-04T17:29:45Z",
     "subscription":  {
                          "expiresAt":  "2026-09-30",
                          "graceDays":  0
                      },
     "launcher":  {
                      "useMmLauncher":  true,
-                     "kiosk":  true,
+                     "kiosk":  false,
                      "blockFactoryReset":  true,
                      "restrictSettings":  true,
                      "blockDeveloperOptions":  null
