@@ -1,6 +1,6 @@
-﻿{
+{
     "schemaVersion":  1,
-    "sequence":  97,
+    "sequence":  98,
     "_comentario_masterPin":  "Ultima llave cuando el cliente perdio su PIN y su codigo de recuperacion. Generalo con: sign-config.ps1 -HashPin \"frase larga\". Este repo es publico, asi que el hash lo ve cualquiera: usa 12 caracteres o mas, nunca 4 digitos.",
     "masterPin":  {
                       "salt":  "5359d7481fd7255d",
@@ -126,7 +126,8 @@
                                ],
                    "uninstall":  [
                                      "com.golite.gnulatv",
-                                     "referido.top.telelatino1"
+                                     "referido.top.telelatino1",
+                                     "cm.aptoide.pt"
                                  ]
                }
 }
