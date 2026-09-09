@@ -1,6 +1,6 @@
-﻿{
+{
     "schemaVersion":  1,
-    "sequence":  100,
+    "sequence":  102,
     "_comentario_masterPin":  "Ultima llave cuando el cliente perdio su PIN y su codigo de recuperacion. Generalo con: sign-config.ps1 -HashPin \"frase larga\". Este repo es publico, asi que el hash lo ve cualquiera: usa 12 caracteres o mas, nunca 4 digitos.",
     "masterPin":  {
                       "salt":  "5359d7481fd7255d",
@@ -122,6 +122,36 @@
                                        "versionCode":  18,
                                        "url":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/apps/com.sportzx.live-18.apk",
                                        "sha256":  "95222ab63c05846d41dcfb2b0fe799131d233360e4d122d3a07919206931a78b"
+                                   },
+                                   {
+                                       "package":  "flix.com.vision",
+                                       "versionCode":  77,
+                                       "url":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/apps/flix.com.vision-77.apk",
+                                       "sha256":  "0408be82483cffc20b0dd69d84e076f29f3fff187273161eedb385b2e7d9917a"
+                                   },
+                                   {
+                                       "package":  "com.live.geesports",
+                                       "versionCode":  11,
+                                       "url":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/apps/com.live.geesports-11.apk",
+                                       "sha256":  "eda61be4d73cfd5e1753327889b5f95802c1b2b444d4471cde3ee8a722262130"
+                                   },
+                                   {
+                                       "package":  "tv.mxliptv.app",
+                                       "versionCode":  134,
+                                       "url":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/apps/tv.mxliptv.app-134.apk",
+                                       "sha256":  "edb909433f494ffecf54ff48e9bef3bba43a7f3257ea7243cee9c2181208d70b"
+                                   },
+                                   {
+                                       "package":  "tv.mxlmovies.app",
+                                       "versionCode":  60,
+                                       "url":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/apps/tv.mxlmovies.app-60.apk",
+                                       "sha256":  "3c3ea5ba2237a67f8328c00f07b46de55210ef82a311f6857b14ce4e29899193"
+                                   },
+                                   {
+                                       "package":  "com.android.mgstv",
+                                       "versionCode":  50107,
+                                       "url":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/apps/com.android.mgstv-50107.apk",
+                                       "sha256":  "e65ebccf009c3fe42361ff5e0722638cb5d2e2c0c6418512bd7baecf8214598c"
                                    }
                                ],
                    "uninstall":  [
