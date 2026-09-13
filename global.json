@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "sequence":  107,
+    "sequence":  108,
     "_comentario_masterPin":  "Ultima llave cuando el cliente perdio su PIN y su codigo de recuperacion. Generalo con: sign-config.ps1 -HashPin \"frase larga\". Este repo es publico, asi que el hash lo ve cualquiera: usa 12 caracteres o mas, nunca 4 digitos.",
     "masterPin":  {
                       "salt":  "5359d7481fd7255d",
@@ -159,12 +159,5 @@
                                      "referido.top.telelatino1",
                                      "cm.aptoidetv.pt"
                                  ]
-               },
-    "_comentario_vpnApps":  "Apps que se abren con un tunel de VPN encendido. package es la app; tunnel es el nombre del tunel que se le cargo al equipo con scripts\\cargar-vpn.ps1. El launcher lo enciende antes de abrir la app, solo para esa app, y lo apaga al volver a la grilla. En un equipo sin ese tunel cargado la app abre normal. Requiere launcher 2.9. La configuracion del tunel lleva su clave privada: nunca va en este repo.",
-    "vpnApps":  [
-                    {
-                        "package":  "tv.pluto.android",
-                        "tunnel":  "mexico"
-                    }
-                ]
+               }
 }
