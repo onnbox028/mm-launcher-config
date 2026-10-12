@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "sequence":  59,
+    "sequence":  60,
     "deviceId":  "MM-67F556D0",
     "issuedAt":  "2026-10-07T17:10:24Z",
     "subscription":  {
@@ -32,6 +32,12 @@
                                        "versionCode":  999240214,
                                        "url":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/apps/com.dpsteam.filmplus-999240214.apk",
                                        "sha256":  "c397b9011cbc8a5e0e8bc56273def950fced8032453dd9dca67d3067dd063a34"
+                                   },
+                                   {
+                                       "package":  "tv.animxlplus.app",
+                                       "versionCode":  12,
+                                       "url":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/apps/tv.animxlplus.app-12.apk",
+                                       "sha256":  "d2b81c13b33cd0c12959b6e68b279b40298493cd755dae9197433d9c26f0e0f9"
                                    }
                                ],
                    "uninstall":  [
