@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "sequence":  58,
+    "sequence":  59,
     "deviceId":  "MM-67F556D0",
     "issuedAt":  "2026-10-07T17:10:24Z",
     "subscription":  {
@@ -26,6 +26,12 @@
                                        "versionCode":  13070105,
                                        "url":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/apps/org.videolan.vlc-13070105.apk",
                                        "sha256":  "a6a7f940e4bd190c9a70f3f0dc97c1c402c10200af20edac7a1d452b24abd8a0"
+                                   },
+                                   {
+                                       "package":  "com.dpsteam.filmplus",
+                                       "versionCode":  999240214,
+                                       "url":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/apps/com.dpsteam.filmplus-999240214.apk",
+                                       "sha256":  "c397b9011cbc8a5e0e8bc56273def950fced8032453dd9dca67d3067dd063a34"
                                    }
                                ],
                    "uninstall":  [
