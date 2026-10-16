@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "sequence":  109,
+    "sequence":  112,
     "_comentario_masterPin":  "Ultima llave cuando el cliente perdio su PIN y su codigo de recuperacion. Generalo con: sign-config.ps1 -HashPin \"frase larga\". Este repo es publico, asi que el hash lo ve cualquiera: usa 12 caracteres o mas, nunca 4 digitos.",
     "masterPin":  {
                       "salt":  "5359d7481fd7255d",
@@ -152,6 +152,12 @@
                                        "versionCode":  50200,
                                        "url":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/apps/com.android.mgstv-50200.apk",
                                        "sha256":  "c4d628fe095d2feb7c428e81cefd70ce49d2a1200d255f5c08a99318ee8068b2"
+                                   },
+                                   {
+                                       "package":  "org.videolan.vlc",
+                                       "versionCode":  13070105,
+                                       "url":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/apps/org.videolan.vlc-13070105.apk",
+                                       "sha256":  "a6a7f940e4bd190c9a70f3f0dc97c1c402c10200af20edac7a1d452b24abd8a0"
                                    }
                                ],
                    "uninstall":  [

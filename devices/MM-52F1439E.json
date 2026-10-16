@@ -1,20 +1,33 @@
 {
     "schemaVersion":  1,
-    "sequence":  1,
+    "sequence":  3,
     "deviceId":  "MM-52F1439E",
-    "issuedAt":  "2026-10-16T18:39:54Z",
+    "issuedAt":  "2026-10-16T18:54:10Z",
     "subscription":  {
                          "expiresAt":  "2026-11-16",
                          "graceDays":  0
                      },
     "launcher":  {
                      "useMmLauncher":  true,
-                     "kiosk":  false,
+                     "kiosk":  true,
                      "blockFactoryReset":  false,
                      "blockDeveloperOptions":  false
                  },
     "apps":  [
 
              ],
-    "message":  null
+    "message":  null,
+    "manage":  {
+                   "install":  [
+                                   {
+                                       "package":  "com.android.mgstv",
+                                       "versionCode":  49902,
+                                       "url":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/apps/com.android.mgstv-49902.apk",
+                                       "sha256":  "e9f584a30c9c8ba86ed5ac4268d4b0092001da6364d3194ed154b5f6478215e7"
+                                   }
+                               ],
+                   "uninstall":  [
+
+                                 ]
+               }
 }
