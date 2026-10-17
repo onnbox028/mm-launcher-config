@@ -1,0 +1,20 @@
+{
+    "schemaVersion":  1,
+    "sequence":  1,
+    "deviceId":  "MM-2870B89E",
+    "issuedAt":  "2026-10-17T00:39:37Z",
+    "subscription":  {
+                         "expiresAt":  "2026-11-16",
+                         "graceDays":  0
+                     },
+    "launcher":  {
+                     "useMmLauncher":  true,
+                     "kiosk":  false,
+                     "blockFactoryReset":  false,
+                     "blockDeveloperOptions":  false
+                 },
+    "apps":  [
+
+             ],
+    "message":  null
+}
