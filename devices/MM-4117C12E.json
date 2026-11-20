@@ -1,0 +1,54 @@
+{
+    "schemaVersion":  1,
+    "sequence":  65,
+    "deviceId":  "MM-67F556D0",
+    "issuedAt":  "2026-11-20T21:54:22Z",
+    "subscription":  {
+                         "expiresAt":  "2099-11-30",
+                         "graceDays":  0
+                     },
+    "launcher":  {
+                     "useMmLauncher":  true,
+                     "kiosk":  true,
+                     "blockFactoryReset":  true,
+                     "restrictSettings":  true,
+                     "blockDeveloperOptions":  null
+                 },
+    "message":  null,
+    "notes":  "sequence 20: el atajo de la grilla abre los Ajustes de fabrica y restrictSettings cierra cuentas, aplicaciones y los restablecimientos.",
+    "hiddenApps":  [
+
+                   ],
+    "manage":  {
+                   "install":  [
+                                   {
+                                       "package":  "org.videolan.vlc",
+                                       "versionCode":  13070105,
+                                       "url":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/apps/org.videolan.vlc-13070105.apk",
+                                       "sha256":  "a6a7f940e4bd190c9a70f3f0dc97c1c402c10200af20edac7a1d452b24abd8a0"
+                                   },
+                                   {
+                                       "package":  "com.dpsteam.filmplus",
+                                       "versionCode":  999240214,
+                                       "url":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/apps/com.dpsteam.filmplus-999240214.apk",
+                                       "sha256":  "c397b9011cbc8a5e0e8bc56273def950fced8032453dd9dca67d3067dd063a34"
+                                   },
+                                   {
+                                       "package":  "tv.animxlplus.app",
+                                       "versionCode":  12,
+                                       "url":  "https://raw.githubusercontent.com/onnbox028/mm-launcher-config/main/apps/tv.animxlplus.app-12.apk",
+                                       "sha256":  "d2b81c13b33cd0c12959b6e68b279b40298493cd755dae9197433d9c26f0e0f9"
+                                   }
+                               ],
+                   "uninstall":  [
+
+                                 ]
+               },
+    "_comentario_vpnApps":  "Solo en este equipo de pruebas: apps que abren con tunel de VPN. Requiere la version de pruebas del launcher (rama pruebas-pluto, versionCode 1000 o mas); la estandar lo ignora. tunnel es el nombre del tunel cargado con scripts\\cargar-vpn.ps1.",
+    "vpnApps":  [
+                    {
+                        "package":  "tv.pluto.android",
+                        "tunnel":  "mexico"
+                    }
+                ]
+}
