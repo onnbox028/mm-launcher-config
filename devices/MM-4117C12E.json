@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "sequence":  1,
+    "sequence":  3,
     "deviceId":  "MM-4117C12E",
-    "issuedAt":  "2026-11-21T00:45:06Z",
+    "issuedAt":  "2026-11-21T01:03:06Z",
     "subscription":  {
                          "expiresAt":  "2027-01-20",
                          "graceDays":  0
                      },
     "launcher":  {
-                     "useMmLauncher":  true,
+                     "useMmLauncher":  false,
                      "kiosk":  false,
                      "blockFactoryReset":  false,
                      "blockDeveloperOptions":  false
